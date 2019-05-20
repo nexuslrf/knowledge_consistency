@@ -296,7 +296,7 @@ def main():
         print("error: gpu not assigned")
 
     if not os.path.exists("./logs_convs_vgg2trans/{}_{}_{}".format(opt.dataset, opt.sample_num, opt.arch)):
-        os.mkdir("./logs_convs_vgg2trans/{}_{}_{}".format(opt.dataset, opt.sample_num, opt.arch))
+        os.makedirs("./logs_convs_vgg2trans/{}_{}_{}".format(opt.dataset, opt.sample_num, opt.arch), exist_ok=True)
     logger_train = Logger(
         './logs_convs_vgg2trans/{}_{}_{}/L{}_{}_{}_{}_{}/train'.format(opt.dataset, opt.sample_num, opt.arch,
                                                                        opt.conv_layer, opt.dataset, in_mode, opt.lr,

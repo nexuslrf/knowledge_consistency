@@ -11,6 +11,15 @@ Here are codes supporting the experiments in the submitted paper.
 
 ### Get Dataset:
 
+* [CUB-200-2011](http://www.vision.caltech.edu/visipedia/CUB-200.html)
+* [VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html)
+* [DOG120](http://vision.stanford.edu/aditya86/ImageNetDogs/)
+
+Note: the images we use are cropped according to their bounding boxes. You need to do such preprocess by yourself~
+
+### Get checkpoints:
+
+You can download our pretrained checkpoint at [Jbox](https://jbox.sjtu.edu.cn/l/xncunP). Then put these checkpoints to `./model_checkpoints/`.
 
 
 ### Training the classification net:
