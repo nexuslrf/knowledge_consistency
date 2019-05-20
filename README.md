@@ -60,5 +60,5 @@ python transClassifier.py --arch vgg16_bn --net_A [Net A] --net_B [Net B] --resu
 
 ### Visualization:
 
-We write a simple [jupyter notebook](link!) to visualize the original image, corresponding feature maps , learnt feature maps, different fuzzy level sub-feature map, etc.
+We write a simple [jupyter notebook](vis.ipynb) to visualize the original image, corresponding feature maps , learnt feature maps, different fuzzy level sub-feature map, etc.
 
