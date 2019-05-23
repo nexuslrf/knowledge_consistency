@@ -19,7 +19,7 @@ Note: the images we use are cropped according to their bounding boxes. You need 
 
 ### Get checkpoints:
 
-You can download our pretrained checkpoint at baidu wangpan: https://pan.baidu.com/s/1iYxQ5QFIUhhEXp-foiAJCQ code: 675n. Then put these checkpoints to `./model_checkpoints/`.
+You can download our pretrained checkpoint at [onedrive](https://1drv.ms/f/s!Amc5_0GAHzFXmnk3FPJbyJmOlwbi). Then put these checkpoints to `./model_checkpoints/`.
 
 
 ### Training the classification net:
