@@ -71,6 +71,7 @@ best_acc1 = 0
 
 args = parser.parse_args()
 device_ids = json.loads(args.device_ids)
+args.gpu = device_ids[0]
 print('parsed options:', vars(args))
 
 if args.dataset=='cifar10':
@@ -203,7 +204,7 @@ def train(train_loader, model, criterion, optimizer, epoch, logger):
 
         if args.gpu is not None:
             input = input.cuda(args.gpu, non_blocking=True)
-        target = target.cuda(args.gpu, non_blocking=True)
+            target = target.cuda(args.gpu, non_blocking=True)
 
         # compute output
         output = model(input)
