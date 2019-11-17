@@ -1,4 +1,4 @@
-# Knowledge Isomorphism
+# Knowledge Consistency
 
 Here are codes supporting the experiments in the submitted paper.
 
