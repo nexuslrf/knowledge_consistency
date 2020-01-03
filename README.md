@@ -65,21 +65,21 @@ We write a simple [jupyter notebook](vis.ipynb) to visualize the original image,
 # Training Parameters:
 - Training Simple Trans-Net:
 + NETWORK DIAGNOSIS(alexnet, resnet34):
-lr: decay with epoches from 1e-04 to 1e-06 
-alpha: [0.1, 0.1]
+* lr: decay with epoches from 1e-04 to 1e-06 
+* alpha: [0.1, 0.1]
 + STABILITY OF LEARNING(alexnet, resnet34, vgg16_bn)
-lr: decay with epoches from 1e-04 to 1e-06 
-alpha: [0.1, 0.1] for resnet34, vgg16_bn
-alpha: [8.0, 8.0] for alexnet
+* lr: decay with epoches from 1e-04 to 1e-06 
+* alpha: [0.1, 0.1] for resnet34, vgg16_bn
+* alpha: [8.0, 8.0] for alexnet
 + FEATURE REFINEMENT (vgg16_bn, resnet18, resnet34, resnet50)
-lr: decay with epoches from 1e-04 to 1e-06 
-alpha: [0.1, 0.1]
+* lr: decay with epoches from 1e-04 to 1e-06 
+* alpha: [0.1, 0.1]
 + INFORMATION DISCARDING OF NETWORK COMPRESSION(vgg16_bn):
-lr: decay with epoches from 1e-04 to 1e-06 
-alpha: [0.1, 0.1]
+l* r: decay with epoches from 1e-04 to 1e-06 
+* alpha: [0.1, 0.1]
 + EXPLAINING KNOWLEDGE DISTILLATION
-lr: decay with epoches from 1e-04 to 1e-06 
-alpha: [0.1, 0.1]
+* lr: decay with epoches from 1e-04 to 1e-06 
+* alpha: [0.1, 0.1]
 
 
 
