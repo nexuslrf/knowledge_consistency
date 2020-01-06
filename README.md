@@ -100,13 +100,11 @@ We write a simple [jupyter notebook](vis.ipynb) to visualize the original image,
   python BornAgain.py --save_epoch 50 --start_gen 1 --seed 10 --resume [checkpoint of teacher network] --device_ids [0,1] --gpu_teacher 2 -a vgg16_bn --epochs 300 --lr 0.01 --epoch_step 60 --logspace 0 --tau 1 --lambd 0.5 --lambd_end 0.5
   ```
 
-* [dc_util.py](./dc_util.py): containing helper functions used for [Deep Compression (ICLR'16)](https://arxiv.org/abs/1510.00149) 
-
-  @TODO: @[ltl7155](https://github.com/ltl7155)
-
 * [Variance.py](./Variance.py): used to calculate the variance values reported in the paper. 
 
-  @TODO: @[ltl7155](https://github.com/ltl7155)
+ ```bash
+python Variance.py --arch_in vgg16_bn --arch_tar vgg16_bn --net_in [Net A] --net_tar [Net B] --transnet [Trans-Net] --dataset CUB200 --gpu 0 --conv_layer 30
+``` 
 
 
 
