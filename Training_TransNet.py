@@ -18,6 +18,7 @@ from logger import Logger
 import Model_zoo as models
 from Datasets import DiscreteDataset
 
+
 np.set_printoptions(precision=3)
 
 model_names = sorted(name for name in models.__dict__

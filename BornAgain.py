@@ -442,4 +442,3 @@ def accuracy_VOC2012(output, target):
 if __name__ == '__main__':
     main()
 
-

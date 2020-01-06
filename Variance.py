@@ -1,6 +1,7 @@
 from dc_util import *
 from Datasets import Generate_Dataloader
 
+
 parser = argparse.ArgumentParser(description='Get Variance')
 # parser.add_argument('data', metavar='DIR',
 #                     help='path to dataset')

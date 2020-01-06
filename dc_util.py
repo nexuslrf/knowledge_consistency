@@ -2,7 +2,6 @@
 This is a collection of functions used fo network compressing!
 
 '''
-
 import argparse
 import os
 import random

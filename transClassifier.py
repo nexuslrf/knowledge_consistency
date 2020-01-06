@@ -17,6 +17,7 @@ import Model_zoo as models
 import os
 from torch.nn.modules.loss import _Loss
 
+
 parser = argparse.ArgumentParser(description='Tracing')
 parser.add_argument('--arch', default='vgg16_bn', type=str)
 parser.add_argument('--seed', default=1, type=int)

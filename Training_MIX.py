@@ -27,7 +27,6 @@ from logger import Logger
 from Models import Generate_Model
 
 
-
 parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')
 # parser.add_argument('data', metavar='DIR',
 #                     help='path to dataset')

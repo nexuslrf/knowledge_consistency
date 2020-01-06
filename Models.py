@@ -1,5 +1,6 @@
 import Model_zoo as models
 import torch
+
 # create model
 def Generate_Model(dataset, arch, device_ids, train_layer,seed=None, pretrained = False):
     if seed is not None:
