@@ -17,7 +17,7 @@ Here are codes for supporting the experiments in our ICLR2020 paper [Knowledge C
 * [VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html)
 * [DOG120](http://vision.stanford.edu/aditya86/ImageNetDogs/)
 
-Note: the images we use are cropped according to provided bounding boxes. You need to do such preprocessing by yourself, save the cropped images in a `DataSet/Catagory1/img01.jpg`  fashion, in order to use PyTorch's `ImageFolder`. 
+Note: the images we use are cropped according to provided bounding boxes. You need to do such preprocessing by yourself, save the cropped images in a `DataSet/Catagory1/img01.jpg`  form, in order to use PyTorch's `ImageFolder`. 
 
 ### Get checkpoints:
 
